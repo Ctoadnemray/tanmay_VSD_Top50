@@ -1,0 +1,4 @@
+
+The System on a Chip (SoC) design flow transforms a conceptual idea into a physical product. The process starts with a high-level functional specification, often a C model, which serves as the first output (O1). This is then translated into a hardware description using RTL (Verilog), becoming the second output (O2). This code is converted into a gate-level netlist through synthesis.
+
+Next, in the physical design stage, this netlist is used to create a detailed chip layout, resulting in a GDSII blueprint—the third output (O3). These stages produce the final manufactured chip, the fourth output (O4), with the core principle that all four outputs remain functionally equivalent. This final GDSII design is sent to a foundry for manufacturing in a critical process called tapeout, a term from the era of magnetic tapes. Tapeout is a high-stakes milestone, marking the irreversible transition from design to fabrication.
